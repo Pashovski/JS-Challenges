@@ -1,0 +1,1 @@
+Intermediate whiteboard style JavaScript challenges
