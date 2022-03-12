@@ -43,19 +43,17 @@
 // }
 // console.log(animals);
 
+var sound = 'grunt'
+var bear = { sound: 'roar' }
 
+function roar() {
+  console.log(this.sound)
+  return bear.sound
+}
 
-// var sound = "grunt";
-// var bear = { sound: "roar"};
+roar.apply(bear)
 
-// function roar(){
-//     console.log(this.sound);
-//     return bear.sound
-// }
-
-// bear.sound
-
-// let vowels = 
+// let vowels =
 // for(var i = 0; i < vowels.length; i++){
 //     console.log(vowels[i]);
 // }
@@ -66,11 +64,9 @@
 
 // let roadTypes = ['street', 'road', 'avenue', 'circle']
 
-// console.log(roadTypes[2]) 
+// console.log(roadTypes[2])
 
 // console.log(typeof(42))
-
-
 
 // var v = 1;
 
@@ -93,8 +89,6 @@
 // a[100] = 'fox';
 // console.log(a.length);
 
-
-
 // var pokedex = ['Snorlax', 'Jigglypuff', "Charmander", "Squirtle"];
 // pokedex.pop();
 // console.log(pokedex.pop())
@@ -113,7 +107,6 @@
 // let animals = ["jaguar","eagle"];
 // animals.pop()
 // console.log(animals.pop());
-
 
 // let a = 5;
 
