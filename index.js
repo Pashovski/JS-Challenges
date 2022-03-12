@@ -60,12 +60,17 @@ function isPalindrome(str) {
 function reverseInt(int) {
   const revString = int.toString().split('').reverse().join('')
 
+<<<<<<< HEAD
   return parseInt(revString) * Math.sign(int)
+=======
+  return parseInt(revString)
+>>>>>>> 2154e357d6eeb81a2632846ddac76d312d18e102
 }
 
 //CHALLENGE 4: CAPITALIZE LETTERS
 // Return a string with the first letter of every word capitalized
 // ex. capitalizeLetters('i love javascript') === 'I Love Javascript'
+<<<<<<< HEAD
 function capitalizeLetters(str) {
   //   const strArr = str.toLowerCase().split(' ')
 
@@ -80,10 +85,14 @@ function capitalizeLetters(str) {
     .map((word) => word[0].toUpperCase() + word.substr(1))
     .join(' ')
 }
+=======
+function capitalizeLetters(str) {}
+>>>>>>> 2154e357d6eeb81a2632846ddac76d312d18e102
 
 // CHALLENGE 5: MAX CHARACTER
 // Return the character that is most common in a string
 // ex. maxCharacter('javascript') == 'a'
+<<<<<<< HEAD
 function maxCharacter(str) {
   const charMap = {}
   let maxNum = 0
@@ -125,5 +134,15 @@ function fizzBuzz() {
 
 // Call Function
 const output = fizzBuzz()
+=======
+function maxCharacter(str) {}
+
+//CHALLENGE 6:FIZZBUZZ
+// Write a program that prints all the numbers from 1 to 100. For multiples of 3, instead of the number, print "Fizz", for multiples of 5 print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
+function fizzBuzz() {}
+
+// Call Function
+const output = reverseInt(12345)
+>>>>>>> 2154e357d6eeb81a2632846ddac76d312d18e102
 
 console.log(output)
