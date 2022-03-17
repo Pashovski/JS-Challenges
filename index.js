@@ -123,6 +123,10 @@ function fizzBuzz() {
   }
 }
 
+//Challenge 7:SumEven
+//pull the even numbers out of an array
+//sum them up
+
 // Call Function
 const output = fizzBuzz()
 
